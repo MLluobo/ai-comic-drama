@@ -26,7 +26,7 @@ def main() -> None:
         assistant["assistant_id"],
         input={
             "raw_requirement": IDEA,
-            "current_stage": "submitted",
+            "current_stage": "submitted", 
             "events": [],
         },
     )
